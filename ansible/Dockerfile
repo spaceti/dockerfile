@@ -1,4 +1,4 @@
-FROM python:3.6.4-alpine3.7
+FROM python:3.6.4-alpine3.6
 LABEL maintainer: "Sergey Shkarupa <s.shkarupa@gmail.com>"
 
 RUN apk --no-cache add --virtual .build-deps libffi-dev openssl-dev build-base && \
